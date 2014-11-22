@@ -1,3 +1,4 @@
+"Coin Source Trust Verified"
 "POD-CryptoAsian"
 TrustPlus - TRUST
 
