@@ -1,4 +1,4 @@
-"Coin Source Trust Verified" - Pending
+"Coin Source Trust Verified"
 
 "POD-CryptoAsian"
 
