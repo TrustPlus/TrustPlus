@@ -1,7 +1,3 @@
-"Coin Source Trust Verified"
-
-"POD-CryptoAsian"
-
 TrustPlus - TRUST
 
 TrustPlus is an energy saving coin generating most of its coins through PoS blocks. It distributes its initial coins through 3 days of evenly distributed PoW mining. No block halving occurs during the initial distribution phase, thus ensuring a fair distribution.
@@ -26,3 +22,5 @@ PoW:
 ports:
 connection:	36999
 RPC: 36998
+
+"POD-CryptoAsian" & "Coin Source Trust Verified"
