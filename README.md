@@ -23,7 +23,9 @@ Specifications:
   RPC: 36998
 
 Compile Step by Step:
+
 - Ubuntu 16.04
+
 cd ~
 sudo apt-get update
 sudo apt-get dist-upgrade -y
@@ -41,10 +43,13 @@ sudo apt-get install unzip -y
 sudo apt-get install git-core libssl-dev build-essential libboost-all-dev libcurl4-openssl-dev libminiupnpc-dev libdb-dev libdb++-dev screen unzip -y
  
 git clone git://github.com/TrustPlus/TrustPlus
+
 cd TrustPlus/src
+
 cd leveldb
 sh ./build_detect_platform build_config.mk ./
 cd ..
+
 screen -R
 make -f makefile.unix USE_UPNP=-
 Control A, D
@@ -53,19 +58,21 @@ screen
 cd ~
 wget http://trustplus.co/bootstrap.zip
 exit
+
 cd ~
 screen -R
 sudo cp TrustPlusd /usr/bin
+
 TrustPlusd -printtoconsole
+
 sudo pico ~/.TrustPlus/TrustPlus.conf
 server=1
 daemon=1
 listen=1
-rpcuser=Prince
+rpcuser=<any user>
 rpcpassword=<any password>
 rpcport=36998
 rpcallowip=127.0.0.1
-
 
 Configuration File:
 
