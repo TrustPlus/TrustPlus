@@ -25,7 +25,7 @@ Specifications:
 Compile Step by Step:
 
 - Ubuntu 16.04
-
+```
 cd ~
 sudo apt-get update
 sudo apt-get dist-upgrade -y
@@ -73,12 +73,14 @@ rpcuser=<any user>
 rpcpassword=<any password>
 rpcport=36998
 rpcallowip=127.0.0.1
+```
 
 Configuration File:
 
 For Windows edit: %appdata%/TrustPlus/TrustPlus.conf
 For Linux edit: ~/.TrustPlus/TrustPlus.conf
 
+```
 server=1
 daemon=1
 listen=1
@@ -91,5 +93,6 @@ rpcconnect=127.0.0.1
 addnode=dal5.trustplus.com
 addnode=dc5.trustplus.com
 addnode=lon2.trustplus.com
+```
 
 "POD-CryptoAsian" & "Coin Source Trust Verified"
