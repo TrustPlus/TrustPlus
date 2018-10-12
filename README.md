@@ -1,7 +1,12 @@
+<p align="center">
 <img src="http://trustplus.co/TrustPlus.png" alt="TRUST" width="200"/>
+</p>
 
-TrustPlus - TRUST
+<p align="center">
+<h1>TrustPlus - TRUST</h1>
+</p>
 
+<p>
 TrustPlus is an energy saving coin generating most of its coins through PoS blocks. It distributes its initial coins through 3 days of evenly distributed PoW mining. No block halving occurs during the initial distribution phase, thus ensuring a fair distribution.
 
 TrustPlus also adopts a variable PoS rate with the following annual interest rate:
@@ -21,10 +26,11 @@ Specifications:
   ports:
   connection:	36999
   RPC: 36998
+</p>
 
-Compile Step by Step:
+# Compile Step by Step:
 
-- Ubuntu 16.04
+- Ubuntu 16.04 headless
 ```
 cd ~
 sudo apt-get update
@@ -75,7 +81,7 @@ rpcport=36998
 rpcallowip=127.0.0.1
 ```
 
-Configuration File:
+# Configuration File:
 
 For Windows edit: %appdata%/TrustPlus/TrustPlus.conf
 For Linux edit: ~/.TrustPlus/TrustPlus.conf
