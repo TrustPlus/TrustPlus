@@ -21,7 +21,7 @@ Specifications:
 - PoS Starts after 8 hours of minimum holding
 - PoS maximum holding time is 30 days
   PoW: 
-- 45 sec block target
+- 450 sec = 7-1/2 minute block target
 - diff retarget each block
   ports:
   connection:	36999
